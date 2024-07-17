@@ -28,8 +28,8 @@ p {
   word-wrap: break-word; /* Evita que palabras largas causen el desbordamiento */
 }
 
-.color-red {
-  color: #c10d16;
+.color-red, .color-red:hover {
+  color: #c10d16 !important;
   font-weight: 700;
   font-size: 18px;
 }

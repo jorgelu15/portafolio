@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+
+header a,
+header a:hover {
+    color: rgba(5, 150, 105, 1);
+    width: 100%;
+}
+
+header a img {
+    max-height: 20rem;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100px;
+    position: absolute;
+    /* Asegura que la imagen no sea demasiado grande en pantallas grandes */
+}
+
+header a div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    position: relative;
+}
+
+header a div  p {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 20px 0;
+}
+main div {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 30px;
+}
+
+.color-red, .color-red:hover {
+    color: #c10d16;
+    font-weight: 700;
+    font-size: 18px;
+  }
